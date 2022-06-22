@@ -1,0 +1,300 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.2f1 (d6360bedb9a0) revision 14038539'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'ko' Physical Memory: 16297 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/OFFICE/Desktop/The-Age-of-War/The Age of War
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49683
+Successfully changed project path to: C:/Users/OFFICE/Desktop/The-Age-of-War/The Age of War
+C:/Users/OFFICE/Desktop/The-Age-of-War/The Age of War
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 65.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/OFFICE/Desktop/The-Age-of-War/The Age of War/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004051 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Refreshing native plugins compatible for Editor in 65.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.509 seconds
+Domain Reload Profiling:
+	ReloadAssembly (510ms)
+		BeginReloadAssembly (56ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (368ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (85ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (221ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003659 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\OFFICE\Desktop\The-Age-of-War\The Age of War\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\OFFICE\Desktop\The-Age-of-War\The Age of War\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.810 seconds
+Domain Reload Profiling:
+	ReloadAssembly (810ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (637ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (112.1 KB). Loaded Objects now: 3817.
+Memory consumption went from 115.6 MB to 115.5 MB.
+Total: 3.008000 ms (FindLiveObjects: 0.327500 ms CreateObjectMapping: 0.263200 ms MarkObjects: 2.339800 ms  DeleteObjects: 0.077000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 101020.205871 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297dabdd5fc689204d65d5d0e45f56ee') in 0.005247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 437.610020 seconds.
+  path: Assets/MedieVox/Materials
+  artifactKey: Guid(5b6e2455be4e4d04ea104a5bf9eddb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedieVox/Materials using Guid(5b6e2455be4e4d04ea104a5bf9eddb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8310a50bd183f22f4ccebb7ce64ef80c') in 0.001141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.489466 seconds.
+  path: Assets/MedieVox/MedieVox City
+  artifactKey: Guid(03355afd7adb79149bfa0d17c697ee6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedieVox/MedieVox City using Guid(03355afd7adb79149bfa0d17c697ee6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789328eb4e1321a74bc9f744d698e379') in 0.000949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.875231 seconds.
+  path: Assets/MedieVox/MedieVox City/Prefabs
+  artifactKey: Guid(053edb9ddcd3a994b848d052faebf175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedieVox/MedieVox City/Prefabs using Guid(053edb9ddcd3a994b848d052faebf175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79b67cb4537d6f103bf4b653df8ea0e') in 0.000900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.355298 seconds.
+  path: Assets/MedieVox/MedieVox City/Prefabs/Church
+  artifactKey: Guid(aa8d2e033699b6c4ab06327c4a8786b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedieVox/MedieVox City/Prefabs/Church using Guid(aa8d2e033699b6c4ab06327c4a8786b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee37742b22aa39b4a853e4685f9607ad') in 0.000916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.088325 seconds.
+  path: Assets/MedieVox/MedieVox City/Prefabs/Church/Church.prefab
+  artifactKey: Guid(48dc9b485d9b74443b656c1fbd5ad707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedieVox/MedieVox City/Prefabs/Church/Church.prefab using Guid(48dc9b485d9b74443b656c1fbd5ad707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a25621b2726a0157ad550db0ca8ccdf') in 0.258756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.173169 seconds.
+  path: Assets/MedieVox/MedieVox City/Prefabs/Houses/House_Stone_2.prefab
+  artifactKey: Guid(1e29653bb4c131c4683a7294eab4358a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedieVox/MedieVox City/Prefabs/Houses/House_Stone_2.prefab using Guid(1e29653bb4c131c4683a7294eab4358a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7bea656597297c7348c519270fbaa4') in 0.170747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.192617 seconds.
+  path: Assets/MedieVox/MedieVox City/Prefabs/Lantern/Lantern_1.prefab
+  artifactKey: Guid(7f4539cf3ecac624eae75977a6cd2072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedieVox/MedieVox City/Prefabs/Lantern/Lantern_1.prefab using Guid(7f4539cf3ecac624eae75977a6cd2072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1d83189ad9132220941f0530f78dbb') in 0.008394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.610991 seconds.
+  path: Assets/MedieVox/MedieVox City/Prefabs/Road/Road.prefab
+  artifactKey: Guid(b1fc406c242ee834e9fc7ef6db696527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedieVox/MedieVox City/Prefabs/Road/Road.prefab using Guid(b1fc406c242ee834e9fc7ef6db696527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56edc358c35d281018d4f3dc437374c') in 0.009533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/MedieVox/MedieVox City/Prefabs/Road/Road_2.prefab
+  artifactKey: Guid(92359b704c010e745a285066c314c803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedieVox/MedieVox City/Prefabs/Road/Road_2.prefab using Guid(92359b704c010e745a285066c314c803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863e4d3c38873dd37aaebb346f397283') in 0.007332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.133355 seconds.
+  path: Assets/MedieVox/MedieVox City/Prefabs/Shops/Carpet_shop.prefab
+  artifactKey: Guid(e971215efc85bda4189210e7576b0867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedieVox/MedieVox City/Prefabs/Shops/Carpet_shop.prefab using Guid(e971215efc85bda4189210e7576b0867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a5a5e0df5ffbbdc620b3fefbd4a200') in 0.009066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.178765 seconds.
+  path: Assets/MedieVox/MedieVox City/Prefabs/Sign/Sign.prefab
+  artifactKey: Guid(2ee7cdfa71270d741b0fd57ca176f89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedieVox/MedieVox City/Prefabs/Sign/Sign.prefab using Guid(2ee7cdfa71270d741b0fd57ca176f89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273cc396a3dd350e4b8915e892a64fb4') in 0.008226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.580384 seconds.
+  path: Assets/MedieVox/MedieVox City/Prefabs/Sign/Parts
+  artifactKey: Guid(60a8a8141f111bf429c97d05140831a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedieVox/MedieVox City/Prefabs/Sign/Parts using Guid(60a8a8141f111bf429c97d05140831a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5463c1bf96af52113ef90476506080b7') in 0.001014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.087771 seconds.
+  path: Assets/MedieVox/MedieVox City/Prefabs/Sign/Parts/Sign_P1.prefab
+  artifactKey: Guid(b6c0a50324de3cd40aae5d10aca374b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedieVox/MedieVox City/Prefabs/Sign/Parts/Sign_P1.prefab using Guid(b6c0a50324de3cd40aae5d10aca374b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc11585700f8cf3b233e892ff12df8cf') in 0.009429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MedieVox/MedieVox City/Prefabs/Sign/Parts/Sign_P4.prefab
+  artifactKey: Guid(b2a648b928a089b47a3e4698cbc05579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedieVox/MedieVox City/Prefabs/Sign/Parts/Sign_P4.prefab using Guid(b2a648b928a089b47a3e4698cbc05579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9173174f4f7bb6c4d7e3c40d877a32a') in 0.007403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 226.628490 seconds.
+  path: Assets/MedieVox/Materials/Chroma_CandyWorld.mat
+  artifactKey: Guid(1d41af62a01df934f88ecbe0f9533d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedieVox/Materials/Chroma_CandyWorld.mat using Guid(1d41af62a01df934f88ecbe0f9533d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd6db315f5d7546e188b618a35cf9c7') in 0.030064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MedieVox/Materials/Chroma_Default_Rocks.mat
+  artifactKey: Guid(9c778687493601944910a07189032845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedieVox/Materials/Chroma_Default_Rocks.mat using Guid(9c778687493601944910a07189032845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8744244aa78133df425b937d49a304bf') in 0.015207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MedieVox/Materials/Water.mat
+  artifactKey: Guid(8883e5c3c02f55a489aec36e1c971b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedieVox/Materials/Water.mat using Guid(8883e5c3c02f55a489aec36e1c971b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193b4db82ed2ed821559e0844359a6dd') in 0.180057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MedieVox/Materials/Chroma_Default.mat
+  artifactKey: Guid(248c8675de07462499ec70dac286696c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedieVox/Materials/Chroma_Default.mat using Guid(248c8675de07462499ec70dac286696c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b8767d68bd9fb97399a82ff1e32818') in 0.007333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.468612 seconds.
+  path: Assets/MedieVox/Textures/Grass_2.png
+  artifactKey: Guid(bc2136a226cd9e541baa48203186a37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedieVox/Textures/Grass_2.png using Guid(bc2136a226cd9e541baa48203186a37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3b9880574c5e07f7a13cab1efeb909') in 0.016789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.922243 seconds.
+  path: Assets/MedieVox/Textures/Chromas/Chroma_2.png
+  artifactKey: Guid(51d1ec029502a884182e0d4a1b708fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedieVox/Textures/Chromas/Chroma_2.png using Guid(51d1ec029502a884182e0d4a1b708fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9749a62c480d0192c90b6226f033a354') in 0.005968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.269003 seconds.
+  path: Assets/MedieVox/Textures/Channel/Metallic.png
+  artifactKey: Guid(db1317671a2fb5647b5d2b838e3e7fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedieVox/Textures/Channel/Metallic.png using Guid(db1317671a2fb5647b5d2b838e3e7fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45284cff9dc2204dc629c227b7639ee') in 0.005784 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
