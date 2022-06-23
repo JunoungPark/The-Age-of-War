@@ -56,7 +56,9 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\Control.cs" />
     <Compile Include="Assets\Script\CreateMonster.cs" />
+    <Compile Include="Assets\Script\MonsterInfomation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\C&amp;C_Pack\Goblin_rouge\readme.txt" />
