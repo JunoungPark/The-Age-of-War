@@ -58,7 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Script\Control.cs" />
     <Compile Include="Assets\Script\CreateMonster.cs" />
-    <Compile Include="Assets\Script\MonsterInfomation.cs" />
+    <Compile Include="Assets\Script\Zoom.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\C&amp;C_Pack\Goblin_rouge\readme.txt" />

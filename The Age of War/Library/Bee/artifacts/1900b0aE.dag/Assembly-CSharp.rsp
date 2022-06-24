@@ -353,7 +353,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Script/Control.cs"
 "Assets/Script/CreateMonster.cs"
-"Assets/Script/MonsterInfomation.cs"
+"Assets/Script/Zoom.cs"
 -langversion:9.0
 
 /deterministic
