@@ -19,6 +19,8 @@ public class Control : MonoBehaviour
 
     public Slider healthGauge;
 
+    float defaulthealth;
+
     int count = 0;
 
     Animator animator;
@@ -26,6 +28,7 @@ public class Control : MonoBehaviour
     private void Start()
     {
         animator = GetComponent<Animator>();
+        defaulthealth = health;
     }
 
     void Update()
@@ -38,9 +41,9 @@ public class Control : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        else if (health < 100)
+        else if (health < defaulthealth)
         {
-            healthGauge.value = health / 100;
+            healthGauge.value = health / defaulthealth;
             healthGauge.gameObject.SetActive(true);
         }
         
@@ -58,11 +61,14 @@ public class Control : MonoBehaviour
                 if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime - count >= 1)
                 {
                     count++;
-                    hit.transform.GetComponent<MonsterControl>().health -= attack;
+                    hit.transform.GetComponent<Control>().health -= attack;
                 }
             }
-            animator.SetBool("Idle", false);
-            animator.SetBool("Attack", true);
+            else
+            {
+                animator.SetBool("Idle", false);
+                animator.SetBool("Attack", true);
+            }
         }
         else if (Physics.Raycast(ray, out hit, 3.0f, layermask[1]))
         {

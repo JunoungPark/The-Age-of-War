@@ -58,16 +58,15 @@
   <ItemGroup>
     <Compile Include="Assets\Script\Zoom.cs" />
     <Compile Include="Assets\Script\Character\Control.cs" />
+    <Compile Include="Assets\Script\Monster\Wizard.cs" />
     <Compile Include="Assets\Script\Manager\DataManager.cs" />
     <Compile Include="Assets\Script\CreateMonster.cs" />
     <Compile Include="Assets\Troll_Сannibal\Script\TrolControl.cs" />
-    <Compile Include="Assets\Script\Character\MonsterControl.cs" />
+    <Compile Include="Assets\Script\Monster\Troll.cs" />
     <Compile Include="Assets\Script\Base\Information.cs" />
     <Compile Include="Assets\Script\Manager\UIManager.cs" />
-    <Compile Include="Assets\Script\Manager\GameManager.cs" />
     <Compile Include="Assets\Script\Monster\Orc.cs" />
-    <Compile Include="Assets\Script\Monster\Troll.cs" />
-    <Compile Include="Assets\Script\Monster\Wizard.cs" />
+    <Compile Include="Assets\Script\Manager\GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -353,7 +353,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Script/Base/Information.cs"
 "Assets/Script/Character/Control.cs"
-"Assets/Script/Character/MonsterControl.cs"
 "Assets/Script/CreateMonster.cs"
 "Assets/Script/Manager/DataManager.cs"
 "Assets/Script/Manager/GameManager.cs"
