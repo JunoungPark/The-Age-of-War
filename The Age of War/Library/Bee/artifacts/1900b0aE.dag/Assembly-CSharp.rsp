@@ -351,9 +351,18 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Script/Control.cs"
+"Assets/Script/Base/Information.cs"
+"Assets/Script/Character/Control.cs"
+"Assets/Script/Character/MonsterControl.cs"
 "Assets/Script/CreateMonster.cs"
+"Assets/Script/Manager/DataManager.cs"
+"Assets/Script/Manager/GameManager.cs"
+"Assets/Script/Manager/UIManager.cs"
+"Assets/Script/Monster/Orc.cs"
+"Assets/Script/Monster/Troll.cs"
+"Assets/Script/Monster/Wizard.cs"
 "Assets/Script/Zoom.cs"
+"Assets/Troll_Сannibal/Script/TrolControl.cs"
 -langversion:9.0
 
 /deterministic

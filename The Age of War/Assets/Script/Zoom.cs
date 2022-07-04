@@ -16,7 +16,7 @@ public class Zoom : MonoBehaviour
     {
         float distance = Input.GetAxis("Mouse ScrollWheel") * -1 * 10;
 
-        mainCamera.fieldOfView = Mathf.Clamp(mainCamera.fieldOfView, 40, 55);
+        mainCamera.fieldOfView = Mathf.Clamp(mainCamera.fieldOfView, 40, 60);
 
         mainCamera.fieldOfView += distance;
     }
