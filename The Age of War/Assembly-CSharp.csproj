@@ -63,6 +63,7 @@
     <Compile Include="Assets\Script\CreateMonster.cs" />
     <Compile Include="Assets\Troll_Сannibal\Script\TrolControl.cs" />
     <Compile Include="Assets\Script\Monster\Troll.cs" />
+    <Compile Include="Assets\Script\Base\BaseStation.cs" />
     <Compile Include="Assets\Script\Base\Information.cs" />
     <Compile Include="Assets\Script\Manager\UIManager.cs" />
     <Compile Include="Assets\Script\Monster\Orc.cs" />

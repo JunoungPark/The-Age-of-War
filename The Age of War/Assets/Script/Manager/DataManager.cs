@@ -8,6 +8,7 @@ public class Stuff
 {
     public int money;
 
+    float timer;
 }
 public class DataManager : MonoBehaviour
 {
@@ -27,18 +28,16 @@ public class DataManager : MonoBehaviour
     private void Update()
     {
         moneyText.text = stuff.money.ToString();
-        if (Input.GetKeyUp(KeyCode.A))
-        {
-            stuff.money++;
-            Save();
-            Debug.Log(stuff.money);
-        }
+        
     }
-
-    public void MoneyIncrease(int value)
+    public IEnumerator Increase()
     {
-        stuff.money += value;
-        Save();
+        while(GameManager.instance.state == true)
+        {
+            yield return new WaitForSeconds(1f);
+            stuff.money += 50;
+            Save();
+        }
     }
     public void Save()
     {

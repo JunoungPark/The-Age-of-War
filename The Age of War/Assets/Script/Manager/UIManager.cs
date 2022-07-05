@@ -14,9 +14,9 @@ public class UIManager : MonoBehaviour
     }
     public void GamaStart()
     {
-        GameManager.instance.state = true;
         window.SetActive(false);
         GameManager.instance.state = true;
+        StartCoroutine(DataManager.instance.Increase());
     }
     IEnumerator WebTexture(string url)
     {

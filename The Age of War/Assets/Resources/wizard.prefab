@@ -16965,6 +16965,7 @@ GameObject:
   - component: {fileID: 4000011578242470}
   - component: {fileID: 95000012058624550}
   - component: {fileID: -7060597506681206260}
+  - component: {fileID: 1931840059507917519}
   m_Layer: 3
   m_Name: Wizard
   m_TagString: Player
@@ -16981,7 +16982,7 @@ Transform:
   m_GameObject: {fileID: 1000013586557078}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4000010094665428}
@@ -17004,7 +17005,7 @@ Animator:
   m_GameObject: {fileID: 1000013586557078}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: be5995a9158bda9459c22d48acd79a3f, type: 3}
-  m_Controller: {fileID: 9100000, guid: 700d9bf6b23d6c7478ef89bf23dd2558, type: 2}
+  m_Controller: {fileID: 9100000, guid: 31cddf8add2270c4a8b2502f9f783376, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -17025,8 +17026,29 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 5, z: 1}
-  m_Center: {x: 0, y: 3, z: 0}
+  m_Size: {x: 3, y: 7, z: 2}
+  m_Center: {x: 0, y: 3.5, z: 0}
+--- !u!114 &1931840059507917519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013586557078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80f7f6f58c03d8049b00d7c3c6121313, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  health: 200
+  attack: 35
+  layermask:
+  - serializedVersion: 2
+    m_Bits: 64
+  - serializedVersion: 2
+    m_Bits: 8
+  healthGauge: {fileID: 7678045816359316932}
 --- !u!1 &1000013699516860
 GameObject:
   m_ObjectHideFlags: 0
@@ -31768,7 +31790,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2077733876635745937, guid: 682dc6f1335589c4b8eaa3d1b5e57094, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3475661331767119745, guid: 682dc6f1335589c4b8eaa3d1b5e57094, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -31864,11 +31886,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6430829833663069646, guid: 682dc6f1335589c4b8eaa3d1b5e57094, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6430829833663069646, guid: 682dc6f1335589c4b8eaa3d1b5e57094, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 682dc6f1335589c4b8eaa3d1b5e57094, type: 3}
@@ -31877,3 +31899,14 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3949336545217931115, guid: 682dc6f1335589c4b8eaa3d1b5e57094, type: 3}
   m_PrefabInstance: {fileID: 749156270835545321}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7678045816359316932 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6982950338075416877, guid: 682dc6f1335589c4b8eaa3d1b5e57094, type: 3}
+  m_PrefabInstance: {fileID: 749156270835545321}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

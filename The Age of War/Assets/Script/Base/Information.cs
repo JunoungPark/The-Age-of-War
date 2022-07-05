@@ -8,10 +8,13 @@ public class Data
     public int price;
     public Sprite shape;
     public Sprite Weapon;
+
 }
 
 public class Information : MonoBehaviour
 {
+    public static Information instance;
+
     public Data[] data;
 
     public Image[] monsterUI;
@@ -19,6 +22,8 @@ public class Information : MonoBehaviour
     public Text[] priceText;
     public void Start()
     {
+        instance = this;
+
         for (int i = 0; i < data.Length; i++)
         {
             monsterUI[i].sprite = data[i].shape;

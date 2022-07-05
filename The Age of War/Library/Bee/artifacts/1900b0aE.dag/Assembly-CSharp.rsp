@@ -351,6 +351,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Script/Base/BaseStation.cs"
 "Assets/Script/Base/Information.cs"
 "Assets/Script/Character/Control.cs"
 "Assets/Script/CreateMonster.cs"

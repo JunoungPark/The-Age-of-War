@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "76995445-94e2-59fc-11ce-fcaca245e942": {
+      "ProjectGuid": "76995445-94e2-59fc-11ce-fcaca245e942",
+      "DisplayName": "UnityEngine.UI",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

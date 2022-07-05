@@ -17,16 +17,25 @@ public class CreateMonster : MonoBehaviour
         switch (name)
         {
             case "Goblin":
-                Instantiate(Resources.Load<GameObject>("Warrior Goblin"), new Vector3(-40, 0, 50), Quaternion.Euler(0, 90, 0));
-                StartCoroutine(Wait(3.0f, createButton[0]));
+                    DataManager.instance.Save();
+                    Instantiate(Resources.Load<GameObject>("Warrior Goblin"), new Vector3(-40, 0, 50), Quaternion.Euler(0, 90, 0));
+                    StartCoroutine(Wait(3.0f, createButton[0]));
+                
                 break;
+
             case "Troll":
-                Instantiate(Resources.Load<GameObject>(name), new Vector3(-40, 0, 50), Quaternion.Euler(0, 90, 0));
-                StartCoroutine(Wait(5.0f, createButton[1]));
+                    DataManager.instance.stuff.money -= Information.instance.data[1].price;
+                    DataManager.instance.Save();
+                    Instantiate(Resources.Load<GameObject>(name), new Vector3(-40, 0, 50), Quaternion.Euler(0, 90, 0));
+                    StartCoroutine(Wait(5.0f, createButton[1]));
+                   
                 break;
             case "Wizard":
-                Instantiate(Resources.Load<GameObject>(name), new Vector3(-40, 0, 50), Quaternion.Euler(0, 90, 0));
-                StartCoroutine(Wait(10.0f, createButton[2]));
+                    DataManager.instance.stuff.money -= Information.instance.data[2].price ;
+                    DataManager.instance.Save();
+                    Instantiate(Resources.Load<GameObject>(name), new Vector3(-40, 0, 50), Quaternion.Euler(0, 90, 0));
+                    StartCoroutine(Wait(10.0f, createButton[2]));
+                    
                 break;
         }
         

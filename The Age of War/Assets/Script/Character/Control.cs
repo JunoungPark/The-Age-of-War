@@ -61,7 +61,10 @@ public class Control : MonoBehaviour
                 if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime - count >= 1)
                 {
                     count++;
-                    hit.transform.GetComponent<Control>().health -= attack;
+                    if (hit.transform.tag == "Base")
+                        hit.transform.GetComponent<BaseStation>().health -= attack;
+                    else
+                        hit.transform.GetComponent<Control>().health -= attack;
                 }
             }
             else
